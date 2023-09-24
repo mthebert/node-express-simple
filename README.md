@@ -6,6 +6,8 @@ Wanted to use the Express generator to make a simple CRUD API
 
 Requires Node to be installed, I am using v14
 
+[Postman](https://www.postman.com/) is helpful for testing any REST operations
+
 Clone repo:
 
 `$ git clone https://github.com/mthebert/node-express-simple.git`
@@ -27,3 +29,18 @@ set to Pug
 `$ DEBUG=sampleApp:* npm start`
 
 open browser to [here](http://localhost:3000)
+
+### Features
+
+- Simple CRUD operations are in routes/users.js
+  GET http://localhost:3000/users
+  POST http://localhost:3000/users
+  PUT http://localhost:3000/users/user/1
+  DEL http://localhost:3000/users/user/1
+
+- serve static files out of /public When you load
+  [the main index](http://localhost:3000) there are files loaded from
+  public/index.html
+  public/images/panda.png
+  public/stylesheets/styles.css
+  public/javascripts/hello.js
