@@ -6,6 +6,14 @@ Wanted to use the Express generator to make a simple CRUD API
 
 Requires Node to be installed, I am using v14
 
+database added to project using lowdb
+
+template engine pug used, formerly jade
+
+added nodemon so it updates webserver any time files change
+
+`$ npm install nodemon -g`
+
 [Postman](https://www.postman.com/) is helpful for testing any REST operations
 
 Clone repo:
