@@ -33,14 +33,21 @@ open browser to [here](http://localhost:3000)
 ### Features
 
 - Simple CRUD operations are in routes/users.js
+
   GET http://localhost:3000/users
+
   POST http://localhost:3000/users
+
   PUT http://localhost:3000/users/user/1
+
   DEL http://localhost:3000/users/user/1
 
-- serve static files out of /public When you load
-  [the main index](http://localhost:3000) there are files loaded from
+- serve static files out of /public When you load [the main index](http://localhost:3000) there are files loaded from
+
   public/index.html
+
   public/images/panda.png
+
   public/stylesheets/styles.css
+
   public/javascripts/hello.js
