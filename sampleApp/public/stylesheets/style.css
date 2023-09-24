@@ -1,8 +1,7 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+h1 {
+  color: red;
+  font: 32px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
-
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }

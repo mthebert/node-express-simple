@@ -6,6 +6,8 @@ Wanted to use the Express generator to make a simple CRUD API
 
 Requires Node to be installed, I am using v14
 
+Clone repo:
+
 `$ git clone https://github.com/mthebert/node-express-simple.git`
 
 `$ cd node-express-simple`
